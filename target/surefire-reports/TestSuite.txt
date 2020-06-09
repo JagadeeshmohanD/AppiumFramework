@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 282.85 s <<< FAILURE! - in TestSuite
+totalvalidation(Practice.AppiumFramework.Ecommerce_tc_4)  Time elapsed: 142.704 s  <<< FAILURE!
+java.lang.ClassCastException: class $java.util.ArrayList$$EnhancerByCGLIB$$b5855c01 cannot be cast to class org.openqa.selenium.WebElement ($java.util.ArrayList$$EnhancerByCGLIB$$b5855c01 and org.openqa.selenium.WebElement are in unnamed module of loader 'app')
+	at Practice.AppiumFramework.Ecommerce_tc_4.totalvalidation(Ecommerce_tc_4.java:92)
+
+apiDemo(Practice.AppiumFramework.ApiDemoTest)  Time elapsed: 82.091 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Practice.AppiumFramework.ApiDemoTest.apiDemo(ApiDemoTest.java:45)
+
+apiDemo(Practice.AppiumFramework.ApiDemoTest)  Time elapsed: 34.155 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Practice.AppiumFramework.ApiDemoTest.apiDemo(ApiDemoTest.java:45)
+
